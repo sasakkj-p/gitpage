@@ -67,7 +67,7 @@ padding: 24px 0;
 }
 .estudantes_todos{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 }
 .escola{
 background-image: linear-gradient(#40A2E3,#7FC2EF);
@@ -88,7 +88,7 @@ padding: 12px 0;
 
 }
 
-.link{
-color: #ffffff;
-text-decoration: none;
-}
+.link {
+    color: #ffffff;
+    text-decoration: none; /* Garanta que termine com o ponto e vírgula ; */
+} /* <-- adicione a chave de fechamento aqui se ela sumiu */;
