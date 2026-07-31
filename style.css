@@ -272,4 +272,6 @@ header {
     justify-content: center;
     padding: 40px 0;
     width: 100%;
+    background-color: #000000;
+    color: white;
 }
