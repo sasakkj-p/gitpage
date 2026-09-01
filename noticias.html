@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias - Akatsuki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #0d0d0d; color: white; margin: 0; padding: 0; font-family: sans-serif;">
+    <header class="cabecalho-itens">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="noticias.html">Notícias</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="lutas.html">Lutas</a></li>
+            </ul>
+        </nav>
+        <h1 class="titulo_site" style="text-align: center; width: 100%; margin-top: 20px;">Portal Akatsuki News</h1>
+    </header>
+
+    <main style="display: flex; flex-direction: column; align-items: center; gap: 40px; margin: 30px auto; max-width: 900px; padding: 0 20px;">
+        
+        <!-- DESTAQUE PRINCIPAL DA SEMANA -->
+        <section style="width: 100%; background-color: #1a1a1a; border: 3px solid #a8180d; border-radius: 8px; overflow: hidden;">
+            <img src="pain.png.jpg" alt="Pain e a Vila da Chuva" style="width: 100%; max-height: 380px; object-fit: cover; display: block;">
+            <div style="padding: 20px;">
+                <span style="background-color: #a8180d; color: white; padding: 4px 8px; font-size: 0.8rem; font-weight: bold; border-radius: 4px; text-transform: uppercase;">Urgente</span>
+                <h2 style="color: white; font-size: 1.8rem; margin: 10px 0;">Pain assume controle definitivo de Amegakure</h2>
+                <p style="color: #ccc; line-height: 1.6; font-size: 1rem;">
+                    Relatórios do submundo confirmam que a antiga liderança de Hanzō da Salamandra foi derrubada. Sob o comando de Pain, a Vila Oculta da Chuva isolou totalmente suas fronteiras e declarou neutralidade forçada nas guerras ninjas.
+                </p>
+            </div>
+        </section>
+
+        <!-- OUTRAS NOTÍCIAS (GRADE DE ARTIGOS) -->
+        <section style="width: 100%;">
+            <h2 style="color: #a8180d; border-bottom: 2px solid #a8180d; padding-bottom: 8px; margin-bottom: 20px; font-size: 1.4rem;">Mais Lidas</h2>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">
+                
+                <!-- NOTÍCIA 1 -->
+                <article style="background-color: #1a1a1a; border: 2px solid #a8180d; border-radius: 8px; width: 48%; min-width: 280px; box-sizing: border-box; overflow: hidden;">
+                    <img src="itachi.png.jpg" alt="Itachi Uchiha" style="width: 100%; height: 180px; object-fit: cover; display: block;">
+                    <div style="padding: 15px;">
+                        <h3 style="color: white; font-size: 1.1rem; margin-top: 0;">Movimentações suspeitas no País do Fogo</h3>
+                        <p style="color: #bbb; font-size: 0.9rem; line-height: 1.4;">Itachi Uchiha e Kisame Hoshigaki foram avistados perto das divisas de Konoha. A ANBU emitiu alerta amarelo.</p>
+                    </div>
+                </article>
+
+                <!-- NOTÍCIA 2 -->
+                <article style="background-color: #1a1a1a; border: 2px solid #a8180d; border-radius: 8px; width: 48%; min-width: 280px; box-sizing: border-box; overflow: hidden;">
+                    <img src="deidara.png.png" alt="Deidara" style="width: 100%; height: 180px; object-fit: cover; display: block;">
+                    <div style="padding: 15px;">
+                        <h3 style="color: white; font-size: 1.1rem; margin-top: 0;">Ataques de arte explosiva na Vila da Pedra</h3>
+                        <p style="color: #bbb; font-size: 0.9rem; line-height: 1.4;">Deidara causou destruição em instalações locais antes de oficializar sua entrada no grupo renegado.</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
